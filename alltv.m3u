@@ -407,10 +407,8 @@ http://vips-livecdn.fptplay.net/hda2/ttxvn_vhls.smil/chunklist_b5000000.m3u8?cc
 #KODIPROP:inputstream.adaptive.license_key=https://apivmx.mytvnet.vn/tv/license/widevine?vmx_device_id=NzRlYjIwNjMtMjkwZS0zMTY5LTg0ZDMtZGE1ZjRkNTRmMjVj
 http://s2129134.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv264&offset=1
 
-#EXTINF:-1 tvg-id="vtvcab6hd" group-title="🟡 KÊNH THỂ THAO" tvg-logo="https://cdn.hqth.me/logo/thumbs/17.png", ON Sports+
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://apivmx.mytvnet.vn/tv/license/widevine?vmx_device_id=NzRlYjIwNjMtMjkwZS0zMTY5LTg0ZDMtZGE1ZjRkNTRmMjVj
-http://s2129134.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv311&offset=1
+#EXTINF:-1 tvg-id="vtvcab6hd" group-title="🟡 KÊNH THỂ THAO" tvg-logo="https://cdn.hqth.me/logo/thumbs/17.png" catchup="append" catchup-days="2" catchup-source="https://api.vthanhtivi.pw/v1/dvr/vieon2/7e6b8c87-e49f-4c5c-b15a-01ae21856286/${start}/${offset}", ON Sports+
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 
 #EXTINF:-1 tvg-id="vtvcab16hd" group-title="🟡 KÊNH THỂ THAO" tvg-logo="https://cdn.hqth.me/logo/thumbs/24.png", ON Football HD
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -430,10 +428,6 @@ http://s2129134.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv485&offset=1
 #EXTINF:0 tvg-id="" type="stream" group-title="🟡 KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/VmMz7md/cccab23.png",Golf News
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://884030f97a.vws.vegacdn.vn/live/_definst_/stream_1_a0acb/chunklist.m3u8?cc
-
-#EXTINF:0 tvg-id="" type="stream" group-title="🟡 KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/PYbZ8bs/ongolf-eng.webp",ON Golf Eng
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-https://onsportlive.vtvcab.vn/hls/ONGOLFTA_CL/04.m3u8?cc
 
 #=============KÊNH PHIM=================
 #EXTINF:-1 tvg-id="boxmovie1" group-title="🟢 KÊNH PHIM" tvg-logo="https://cdn.hqth.me/logo/thumbs/187.png", Box Movie
@@ -558,7 +552,6 @@ https://livecdn.fptplay.net/hda1/outdoorfhd_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:-1 tvg-id="hgtv" group-title="🟣 KÊNH KHOA HỌC" tvg-logo="https://cdn.hqth.me/logo/thumbs/234.png", HGTV
 https://api.vthanhtivi.pw/v1/getlink/tv360/99/2
-
 						
 
 #=================MUSIC===============
